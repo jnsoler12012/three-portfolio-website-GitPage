@@ -19,7 +19,7 @@ export default function () {
     return (
         <header className="header">
             <InteractiveRouterLink as={Link} to="/" className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md" onClick={() => setSelected('')}>
-                <p className="blue-gradient_text" >AH</p>
+                <p className="blue-gradient_text" >JN</p>
             </InteractiveRouterLink>
             <nav className="flex text-lg gap-7 font-medium">
                 <InteractiveRouterLink as={Link} to="/about" className={`${checkRouteIsPresent("/about") ? 'text-blue-500' : 'text-black'}`} onClick={() => setSelected('about')}>
