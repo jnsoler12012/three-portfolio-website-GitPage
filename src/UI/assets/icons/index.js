@@ -26,6 +26,13 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import dojo from './dojo.svg'
+import bag from './bag.svg'
+import social from './social.svg'
+import dashboard from './dashboard.svg'
+import health from './health.svg'
+import webpack from './webpack.svg'
+import java from './java.svg'
 
 export {
     css,
@@ -55,5 +62,12 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    dojo,
+    bag,
+    social,
+    dashboard,
+    health,
+    webpack,
+    java
 }

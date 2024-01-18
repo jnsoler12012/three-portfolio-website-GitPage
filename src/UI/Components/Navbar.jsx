@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 export default function () {
     const [selected, setSelected] = useState(window.location.href.split('/'));
     const checkRouteIsPresent = (to) => {
+
         const toString = to.split('/')[1]
 
         const finalStringRoute = window.location.href.split('/')
 
 
         //console.log(toString, '-separator-', finalStringRoute[finalStringRoute.length - 1], (toString === finalStringRoute[finalStringRoute.length - 1]))
-
+        //console.log(window.location.href, to, toString === finalStringRoute[finalStringRoute.length - 1]);
         return (toString === finalStringRoute[finalStringRoute.length - 1])
     }
 
@@ -26,6 +27,9 @@ export default function () {
                 </InteractiveRouterLink>
                 <InteractiveRouterLink as={Link} to="/projects" className={`${checkRouteIsPresent("/projects") ? 'text-blue-500' : 'text-black'}`} onClick={() => setSelected('projects')}>
                     Projects
+                </InteractiveRouterLink>
+                <InteractiveRouterLink as={Link} to="/contact" className={`${checkRouteIsPresent("/contact") ? 'text-blue-500' : 'text-black'}`} onClick={() => setSelected('contact')}>
+                    Contact
                 </InteractiveRouterLink>
             </nav>
         </header>
