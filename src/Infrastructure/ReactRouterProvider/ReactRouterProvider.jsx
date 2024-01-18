@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Switch, HashRouter } from 'react-router-dom'
 import { About, Contact, ErrorPage, Home, Projects } from '../../UI/Pages'
-import { Navbar } from '../../UI/Components'
+import { Footer, Navbar } from '../../UI/Components'
 
 function ReactRouterProvider() {
     return (
-        <main className='bg-slate-300/20'>
+        <main className='bg-slate-300/20 h-[100%]'>
             <HashRouter>
                 <div className='overflow-hidden'>
                     <Navbar />

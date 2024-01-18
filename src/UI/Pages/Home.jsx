@@ -1,5 +1,4 @@
 import React, { Suspense, useState } from 'react'
-import Image1 from 'Images/Image1.png';
 import { Canvas } from '@react-three/fiber';
 import { HomeInfo, Loader } from '../Components';
 import { Island, Plane, Sky } from '../models';
@@ -68,8 +67,8 @@ export default function () {
                     />
                     <Plane
                         isRotating={isRotating}
-                        planeScale={planeScale}
-                        planePosition={planePosition}
+                        scale={planeScale}
+                        position={planePosition}
                         rotation={[0, 20, 0]}
                     />
                 </Suspense>
