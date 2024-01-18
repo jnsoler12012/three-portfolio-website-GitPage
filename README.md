@@ -1,37 +1,34 @@
-# Chat firebase - Auth por Google, email, github
+# Portafolio personal React-webpack-tailwind
 
-
+<h1>
+    Vista previa en vivo: <a href='https://jnsoler12012.github.io/three-portfolio-website-GitPage/#/'>Link</a>
+</h1> 
 
 <p align="center">
-<img src="https://www.sofka.com.co/wp-content/uploads/2021/02/sofkau-logo-horizontal.png">
+<img src="https://github.zendesk.com/attachments/token/IGM4yZ6dbVcHPYMNLoYX0hTaZ/?name=image.png">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59320487/163166542-62eafaa3-eaca-4b4e-b3fb-4963fe34d817.png">
+<img src="https://github.zendesk.com/attachments/token/9puXyPe4JBcPqbJsKTMTV4Ywk/?name=image.png">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59320487/163153580-a009d465-2aa3-401c-96b0-0a917ac3749b.png">
+<img src="https://github.zendesk.com/attachments/token/S1I6ldSmKfE7pJ4hbQg2cr777/?name=image.png">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59320487/163158869-e800ca47-ea9f-4130-8617-6cb58aa9b7b0.png">
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59320487/163161621-db723d4e-bd30-4402-96ec-bd8f3176c76f.png">
+<img src="https://github.zendesk.com/attachments/token/TjOg2X02jVf5FhUFKm2aJ1tF9/?name=image.png">
 </p>
 
 
 
 
 
+## Portfolio
 
+React webpack tailwind application to display my personal works and portfolio over one page available to people
 
-
-## Aplicacion para chat 
-
-In the project directory, you can run:
+If you download this repository, please don't exec the command deploy, the command will not work
 
 ### `npm start`
 
