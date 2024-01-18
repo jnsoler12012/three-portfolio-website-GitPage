@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     entry: `${__dirname}/src/index.js`,
@@ -14,6 +14,7 @@ module.exports = {
         alias: {
             Images: path.resolve(__dirname, 'src/UI/assets/img/'),
             Models3D: path.resolve(__dirname, 'src/UI/assets/3d/'),
+            Icons: path.resolve(__dirname, 'src/UI/assets/icons/'),
         },
     },
     plugins: [
@@ -23,6 +24,9 @@ module.exports = {
             favicon: path.resolve(__dirname, 'src/UI/assets/ico/dashboard.ico'),
             title: 'custom name',
             inject: true,
+        }),
+        new Dotenv({
+            path: '.env',
         }),
     ],
     module: {
