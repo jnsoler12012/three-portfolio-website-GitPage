@@ -8,21 +8,6 @@
 <img src="https://github.zendesk.com/attachments/token/IGM4yZ6dbVcHPYMNLoYX0hTaZ/?name=image.png">
 </p>
 
-<p align="center">
-<img src="https://github.zendesk.com/attachments/token/9puXyPe4JBcPqbJsKTMTV4Ywk/?name=image.png">
-</p>
-
-<p align="center">
-<img src="https://github.zendesk.com/attachments/token/S1I6ldSmKfE7pJ4hbQg2cr777/?name=image.png">
-</p>
-
-<p align="center">
-<img src="https://github.zendesk.com/attachments/token/TjOg2X02jVf5FhUFKm2aJ1tF9/?name=image.png">
-</p>
-
-
-
-
 
 ## Portfolio
 
